@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "8903c702-c5e8-4d97-9535-183a8c92f091",
+		"name": "quarkus-snake-alarm",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/snake-alarm",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"snakes\" : [{\"id\": 1, \"imageASCIIArtString\": \"e--==--==--\"}]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/snake-alarm",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"snake-alarm"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
