@@ -1,7 +1,7 @@
 package com.jurocknsail.util
 
+import jakarta.enterprise.inject.Produces
 import jakarta.enterprise.inject.spi.InjectionPoint
-import jakarta.ws.rs.Produces
 import java.util.logging.Logger
 
 
